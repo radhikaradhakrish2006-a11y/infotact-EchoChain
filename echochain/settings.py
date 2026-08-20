@@ -4,14 +4,10 @@
 # commonly used. You can find more settings consulting the documentation:
 #
 #     https://docs.scrapy.org/en/latest/topics/settings.html
-#     https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
-#     https://docs.scrapy.org/en/latest/topics/spider-middleware.html
-
+#     https://docs.scrapy.org/en/latest/topics/downloader-middleware
 BOT_NAME = "echochain"
-
 SPIDER_MODULES = ["echochain.spiders"]
 NEWSPIDER_MODULE = "echochain.spiders"
-
 ADDONS = {}
 
 
