@@ -7,12 +7,10 @@ BOT_NAME = "echochain"
 SPIDER_MODULES = ["echochain.spiders"]
 NEWSPIDER_MODULE = "echochain.spiders"
 ADDONS = {}
-
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = False
-
 # Concurrency and throttling settings
 #CONCURRENT_REQUESTS = 16
 CONCURRENT_REQUESTS_PER_DOMAIN = 1
